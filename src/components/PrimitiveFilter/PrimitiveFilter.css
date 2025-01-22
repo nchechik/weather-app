@@ -1,0 +1,23 @@
+.primitive-filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-inline: 30px;
+}
+
+.primitive-filter {
+  display: flex;
+  padding: 0px;
+}
+
+.regular-text {
+  margin-inline: 5px;
+  cursor: pointer;
+}
+
+.chosen-text {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-inline: 5px;
+  cursor: pointer;
+}

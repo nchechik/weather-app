@@ -1,0 +1,51 @@
+.city {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  display: flex;
+  flex-direction: column;
+  padding:15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.city .city-name {
+  font-size: large;
+  font-weight: bold;
+  margin: 1px
+}
+
+.city .country-name {
+  font-size: medium;
+  margin: 1px
+}
+
+.city .description {
+  font-size: small;
+}
+
+
+/* .city-name{
+  font-size: medium;
+} */
+
+.description{
+  font-size: small;
+}
+/* 
+.city h1 {
+  margin: 0px;
+  font-size: large;
+}
+
+.city h2 {
+  margin: 0px;
+  
+  font-size: medium;
+}
+
+.city p {
+  font-size: small;
+} */
+

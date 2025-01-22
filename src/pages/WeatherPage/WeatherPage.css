@@ -1,0 +1,70 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  align-items: center;
+}
+
+.weather-grid-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.weather-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.weather-card {
+  background-color: rgba(3, 30, 99, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  flex: 1 1 30%;
+  box-sizing: border-box;
+}
+
+.weather-card .date {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.weather-card .weather-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.weather-card .condition {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.weather-card .temperature,
+.weather-card .current-temp,
+.weather-card .wind-speed {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .weather-card {
+    flex: 1 1 100%;
+  }
+}
+
+.back-button {
+  cursor: pointer;
+  margin:10px;
+  align-self: flex-start;
+}
